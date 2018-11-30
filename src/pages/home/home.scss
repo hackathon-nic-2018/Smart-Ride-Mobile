@@ -1,3 +1,46 @@
 page-home {
+    .logo{
+        width: 30%;
+    }
+    .centro{
+        text-align: center;
+        background-position: center;
+        //margin-top: 50%;
+         
+    }
+    .formulario{
+        padding: 5%;
+        vertical-align: middle;
+    }
+    .a{
+        position: relative;
+        float: right;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .ol{
+        margin-top: -5%;
+    }
+    .sombra{
+        background-color: #095070;
+        height: 25%;
+    }
+    .img{
+        width: 27%;
+        display:block;
+        margin:auto;
 
+    }
+    .top{
+        margin-top: -15%;
+    }
+    .boton{
+        display: flex;
+        justify-content: center;  
+    }
+    .icon{
+        width: 40%;
+        display:block;
+        margin:auto;
+    }
 }

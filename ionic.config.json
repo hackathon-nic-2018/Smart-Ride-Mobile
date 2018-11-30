@@ -1,5 +1,7 @@
 {
   "name": "SmartRide",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

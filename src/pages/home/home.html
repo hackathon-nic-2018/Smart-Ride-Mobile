@@ -1,14 +1,51 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-content class="main">
+  <div class="sombra"></div>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-card class="top">
+  <br>
+  <div><img src="../../assets/imgs/logo.png" alt="" class="img"> </div>
+  <br>
+
+  <div class="formulario" padding>
+    
+      <ion-list inset>
+
+          <ion-item>
+            <ion-input type="text" placeholder="Usuario"></ion-input>
+          </ion-item><br>
+        
+          <ion-item>
+            <ion-input type="password" placeholder="Contraseña"></ion-input>
+          </ion-item>
+        
+        </ion-list>
+        
+        <br>
+
+        <div class="ol">
+            <ion-grid padding>
+                <ion-row>
+                  <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+                      <ion-col col-12 class="contra"><a href="" class="a">Olvide mi Contraseña</a></ion-col>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+        </div>
+        <br>
+        
+        <div class="boton"><button ion-button outline round (click)="login()">Acceder</button></div>
+        </div>
+
+        <div>
+          <p style="text-align: center;">Siguenos en Nuestras Redes Sociales</p>
+          
+          <ion-grid>
+              <ion-row>
+                    <ion-col col-4><a href=""><img src="../../assets/imgs/Recurso 13ldpi.png" alt="" class="icon"></a></ion-col>
+                    <ion-col col-4><a href=""><img src="../../assets/imgs/Recurso 12ldpi.png" alt="" class="icon"></a></ion-col>
+                    <ion-col col-4><a href=""><img src="../../assets/imgs/Recurso 14ldpi.png" alt="" class="icon"></a></ion-col>          
+              </ion-row>
+            </ion-grid>      
+        </div>
+      </ion-card>
 </ion-content>
