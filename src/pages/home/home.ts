@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { PerfilpadrePage } from '../perfilpadre/perfilpadre';
-
+import { InfopadrePage } from '../infopadre/infopadre';
 
 @Component({
   selector: 'page-home',
@@ -14,8 +13,7 @@ export class HomePage {
 
   }
   
-  login(): void{
-    this.navCtrl.push( PerfilpadrePage );
-  }
-
+  /*login(){
+    this.navCtrl.setRoot( InfopadrePage );
+  } */
 }

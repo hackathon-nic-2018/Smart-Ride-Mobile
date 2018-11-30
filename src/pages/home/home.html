@@ -3,19 +3,19 @@
 
 <ion-card class="top">
   <br>
-  <div><img src="../../assets/imgs/logo.png" alt="" class="img"> </div>
+  <div><img src="../../assets/imgs/Recurso 8ldpi.png" alt="" class="img"> </div>
   <br>
 
-  <div class="formulario" padding>
+  <div class="formulario" id="login_div" padding>
     
       <ion-list inset>
 
           <ion-item>
-            <ion-input type="text" placeholder="Usuario"></ion-input>
+            <ion-input type="email" placeholder="E-mail" id="email_field"></ion-input>
           </ion-item><br>
         
           <ion-item>
-            <ion-input type="password" placeholder="Contraseña"></ion-input>
+            <ion-input type="password" placeholder="Contraseña" id="password_field"></ion-input>
           </ion-item>
         
         </ion-list>
@@ -32,10 +32,11 @@
               </ion-grid>
         </div>
         <br>
-        
         <div class="boton"><button ion-button outline round (click)="login()">Acceder</button></div>
         </div>
 
+        
+        <br>
         <div>
           <p style="text-align: center;">Siguenos en Nuestras Redes Sociales</p>
           
@@ -48,4 +49,20 @@
             </ion-grid>      
         </div>
       </ion-card>
+
+      <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+      <script>
+        
+        var config = {
+          apiKey: "AIzaSyBbxPOCEg5YoJKfgd4XIMf0ao-QOWPvjwk",
+          authDomain: "laravelfirebase-15a71.firebaseapp.com",
+          databaseURL: "https://laravelfirebase-15a71.firebaseio.com",
+          projectId: "laravelfirebase-15a71",
+          storageBucket: "laravelfirebase-15a71.appspot.com",
+          messagingSenderId: "357836809287"
+        };
+        firebase.initializeApp(config);
+      </script>
+        <script src="./index.js"></script>
+      
 </ion-content>

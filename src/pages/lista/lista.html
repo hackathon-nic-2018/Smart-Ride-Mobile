@@ -1,0 +1,14 @@
+<ion-content padding>
+    <div class="som"></div>
+
+    <div>
+      <img src="../../assets/imgs/logo.png" alt="">
+    </div>
+    <br>
+
+    <ion-list no-lines>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+          {{ item }}
+        </button> 
+      </ion-list>
+</ion-content>
